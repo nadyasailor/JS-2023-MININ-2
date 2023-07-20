@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(50, 50, 50);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 70px 0 0 0;
+}
+
+h1 {
+  font-family: Arial;
+  color: white;
+  margin: 0 0 15px 0;
+}
+
+.type-note {
+  width: 360px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.add-button {
+  width: 374px;
+  height: 35px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: white;
+  color: rgb(50, 50, 50);
+}
+
+.add-button:active {
+  transform: scale(0.98);
+}
+
+.list-group {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  background-color: white;
+  width: 354px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.btn-edit,
+.btn-delete {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  width: 25px;
+  height: 25px; 
+  border-radius: 2px;
+  font-family: "Arial";
+  border: 0;
+  margin: 0 1px;
+  font-size: 15px;    
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: rgb(67, 228, 94);
+}
+
+.btn-edit:hover {
+  background-color: rgb(6, 174, 34);
+}
+
+.btn-edit:active {
+  transform: scale(0.95);
+}
+
+.edit-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.btn-delete {
+  background-color: rgb(249, 81, 81);
+}
+
+.btn-delete:hover {
+  background-color: rgb(211, 35, 35);
+}
+
+.btn-delete:active {
+  transform: scale(0.95);
+} 
+
+.delete-icon {
+  height: 15px;
+  width: 15px;
+}
